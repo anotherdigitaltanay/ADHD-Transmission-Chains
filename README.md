@@ -5,7 +5,7 @@
 Data and analysis code for four transmission-chain studies and a pooled mega-analysis, together with the supplementary information for the paper.
 
 - **Authors:** Tanay Katiyar, George Gillett, Adam Hunt, Amanda Ferguson, Alessia Pascale, Alberto Acerbi, Nikhil Chaudhary*, Amy Orben*
-- **Preprint:** [link or DOI]
+- **Preprint:** osf.io/preprints/psyarxiv/dj6me_v1 
 - **Complete archive (code, data and fitted models):** 10.5281/zenodo.23073309
 
 ## What is where
@@ -116,7 +116,7 @@ In the analysis scripts, each model has a `brm()` call that fits it, followed by
 
 ## Citation
 
-[How to cite the paper and the Zenodo archive]
+Katiyar, T., et al. Peer Transmission of Mental Health Information Increases ADHD Self-diagnosis. PsyArXiv, osf.io/preprints/psyarxiv/dj6me_v1.
 
 ## Contact
 
