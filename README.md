@@ -39,13 +39,36 @@ The scripts load the fitted models, so most of them will not run from the GitHub
 ├── [project-name].Rproj
 ├── renv.lock, .Rprofile, renv/     package versions (do not edit)
 ├── Explanation Screening Agreement/
+├── Power Analysis/
 ├── Study 1/
 ├── Study 2/
 ├── Study 3/
 ├── Study 4/
+├── Supplementary Materials
 └── Mega-Analysis/
 
 ```
+
+### Inside `Mega-Analysis`
+
+Supplementary Materials to the main manuscript
+
+
+
+### Inside 'Power Analysis'
+
+| File | What it does |
+|---|---|
+| `Power Analysis_Chains.R` | Runs a Bayesian simulationist power and precision analysis, assuming ordinal data |
+
+
+### Inside 'Explanation Screening Agreement'
+
+| File | What it does |
+|---|---|
+| `Explanation Screening Coder Agreement.R` | Computes raw percentage agreement between two independent coders on minor linguistic error recognition coding in participant ADHD explanations |
+
+
 
 ### Inside each study folder
 
@@ -62,7 +85,11 @@ The scripts load the fitted models, so most of them will not run from the GitHub
 | `Study[N]_Data.csv` | Anonymised data (Zenodo archive only)|
 | `*.rds` | Fitted models (Zenodo archive only) |
 
+
+
 ### Inside `Mega-Analysis`
+
+The mega-analysis is equivalent to a one-stage individual participant data (IPD) meta-analysis: the participant-level data from all four studies are pooled and analysed together in a single set of models, instead of combining summary estimates from each study.
 
 | File | What it does |
 |---|---|
@@ -73,6 +100,7 @@ The scripts load the fitted models, so most of them will not run from the GitHub
 | `Model Prediction Plots.R` | Plots the model-predicted effects, including the main manuscript figure |
 | `Table Theme Function.R` | Table formatting helper |
 | `*.rds` | Fitted models and saved text embeddings (Zenodo archive only) |
+
 
 ## Order to run things
 
