@@ -6,7 +6,7 @@ Data and analysis code for four transmission-chain studies and a pooled mega-ana
 
 - **Authors:** Tanay Katiyar, George Gillett, Adam Hunt, Amanda Ferguson, Alessia Pascale, Alberto Acerbi, Nikhil Chaudhary*, Amy Orben*
 - **Preprint:** [link or DOI]
-- **Complete archive (code, data and fitted models):** [Zenodo DOI]
+- **Complete archive (code, data and fitted models):** 10.5281/zenodo.23073309
 
 ## What is where
 
